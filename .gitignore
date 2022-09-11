@@ -1,0 +1,13 @@
+# package directories
+node_modules
+package-lock.json
+jspm_packages
+
+# vars
+**/env.ts
+
+# Serverless directories
+.serverless
+
+# esbuild directories
+.esbuild

@@ -1,0 +1,13 @@
+sendEmail:
+  handler: ./src/handler.sendEmail
+  events: 
+    - http:
+        method: 'post'
+        path: 'email/send'
+        private: true
+registerApiKey:
+  handler: ./src/handler.registerApiKey
+  events: 
+    - http:
+        method: 'post'
+        path: 'register/api_key'

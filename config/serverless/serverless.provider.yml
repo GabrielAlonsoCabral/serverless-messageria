@@ -1,0 +1,12 @@
+name: 'aws'
+runtime: 'nodejs14.x'
+region: 'us-east-1'
+environment:
+  NODE_ENV: DEV
+  AWS_PINPOINT_HOST: 'YOUR_HOST'
+  AWS_PINPOINT_USER: 'USER'
+  AWS_PINPOINT_PASS: 'PASS'
+  AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1'
+  NODE_OPTIONS: '--enable-source-maps --stack-trace-limit=1000'
+apiGateway:
+  ${file(./config/serverless/services/serverless.api.gateway.yml)}
