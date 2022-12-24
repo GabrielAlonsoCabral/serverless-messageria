@@ -7,7 +7,7 @@ Feel free to use it!
 ```
 # Setting Environment
 1. clone this repository
-2. Add your env vars on ./config/
+2. Add your env vars on ./config/serverless.provider.yml
 
 # Install dependencies
 npm i
