@@ -1,6 +1,9 @@
 # SERVERLESS MESSAGERIA WITH API_KEY
-This is a Serverless Messageria with paid plans.
-Feel free to use it!
+  This is a Serverless Messageria with paid plans.
+  Feel free to use it!
+
+  Developed by: <a href="https://www.github.com/gabrielAlonsoCabral">@GabrielAlonsoCabral</a>  
+  <br/>
 
 ## Usage
 
